@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1553887186 source:c:\utn\clase_4.2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+
+1553887091 source:c:\utn\clase_4.2\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1553886547 c:\utn\clase_4.2\utn.h
+
