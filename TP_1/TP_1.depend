@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1554495169 source:c:\utn\tp_1\f_math.c
+	<stdio.h>
+	<stdlib.h>
+	"f_validacion.h"
+
+1554494712 source:c:\utn\tp_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"f_math.h"
+	"f_validacion.h"
+
+1554241006 c:\utn\tp_1\f_math.h
+
+1554494362 source:c:\utn\tp_1\f_validacion.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1554385570 c:\utn\tp_1\f_validacion.h
+

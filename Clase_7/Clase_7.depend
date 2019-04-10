@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1554901232 source:c:\utn\clase_7\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
+1554904142 source:c:\utn\clase_7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1554900863 c:\utn\clase_7\funciones.h
+
