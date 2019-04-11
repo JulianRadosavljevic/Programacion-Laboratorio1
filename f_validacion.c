@@ -34,7 +34,7 @@ int esNumerico(char str[]) /** FALTA VALIDAR QUE TOME NEGATIVOS **/
  * \return 1 si contiene solo ' ' y letras y 0 si no lo es
  *
  */
-int esLetras(char str[])
+int esLetras(char str[]) /** VALIDAR QUE NO TOME NUMEROS **/
 {
    int i=0;
 
