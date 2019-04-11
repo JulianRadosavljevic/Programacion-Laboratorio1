@@ -3,16 +3,16 @@
 #include <time.h>
 #include <string.h>
 #include "f_get.h"
-#include "f_getStrings.h"
+//#include "f_getStrings.h"
 
 /**
- * \brief Verifica si el valor recibido es numÃ©rico
+ * \brief Verifica si el valor recibido es numérico
  * \param str Array con la cadena a ser analizada
- * \return 1 si es nÃºmerico y 0 si no lo es
+ * \return 1 si es númerico y 0 si no lo es
  *
  */
 
-int esNumerico(char str[]) /** FALTA VALIDAR QUE TOME NEGATIVOS **/
+int utn_validaNumero(char str[]) /** FALTA VALIDAR QUE TOME NEGATIVOS **/
 {
    int i=0;
 
@@ -39,7 +39,7 @@ int esNumerico(char str[]) /** FALTA VALIDAR QUE TOME NEGATIVOS **/
  * \return 1 si contiene solo ' ' y letras y 0 si no lo es
  *
  */
-int esLetras(char str[]) /** VALIDAR QUE NO TOME NUMEROS **/
+int utn_validaLetra(char str[]) /** VALIDAR QUE NO TOME NUMEROS **/
 {
    int i=0;
 
@@ -54,13 +54,13 @@ int esLetras(char str[]) /** VALIDAR QUE NO TOME NUMEROS **/
 }
 
 /**
- * \brief Verifica si el valor recibido contiene solo letras y nÃºmeros
+ * \brief Verifica si el valor recibido contiene solo letras y números
  * \param str Array con la cadena a ser analizada
- * \return 1 si contiene solo espacio o letras y nÃºmeros, y 0 si no lo es
+ * \return 1 si contiene solo espacio o letras y números, y 0 si no lo es
  *
  */
 
-int esAlfaNumerico(char str[]) /** FALTA VALIDAR NEGATIVOS **/
+int utn_validaAlfaNumerico(char str[]) /** FALTA VALIDAR NEGATIVOS **/
 {
    int i=0;
 
@@ -75,13 +75,13 @@ int esAlfaNumerico(char str[]) /** FALTA VALIDAR NEGATIVOS **/
 }
 
 /**
- * \brief Verifica si el valor recibido contiene solo nÃºmeros, + y -
+ * \brief Verifica si el valor recibido contiene solo números, + y -
  * \param str Array con la cadena a ser analizada
  * \return 1 si contiene solo numeros, espacios y un guion.
  *
  */
 
-int esTelefono(char str[]) /** FALTA VALIDAR QUE EL PRIMER CARACTER SEA UN NUMERO**/
+int utn_validaTelefono(char str[]) /** FALTA VALIDAR QUE EL PRIMER CARACTER SEA UN NUMERO**/
 {
    int i=0;
    int contadorGuiones=0;

@@ -2,16 +2,16 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
-#include "f_getStrings.h"
+//#include "f_getStrings.h"
 #include "f_validacion.h"
 
 /**
- * \brief Solicita un nÃºmero al usuario y devuelve el resultado
+ * \brief Solicita un número al usuario y devuelve el resultado
  * \param mensaje Es el mensaje a ser mostrado
- * \return El nÃºmero ingresado por el usuario
+ * \return El número ingresado por el usuario
  *
  */
-float getFloat(char mensaje[])
+float utn_getFloat(char mensaje[])
 {
     float auxiliar;
 
@@ -22,12 +22,12 @@ float getFloat(char mensaje[])
 }
 
 /**
- * \brief Solicita un nÃºmero al usuario y devuelve el resultado
+ * \brief Solicita un número al usuario y devuelve el resultado
  * \param mensaje Es el mensaje a ser mostrado
- * \return El nÃºmero ingresado por el usuario
+ * \return El número ingresado por el usuario
  *
  */
-int getInt(char mensaje[])
+int utn_getInt(char mensaje[])
 {
     int auxiliar;
 
@@ -43,7 +43,7 @@ int getInt(char mensaje[])
  * \return El caracter ingresado por el usuario
  *
  */
-char getChar(char mensaje[])
+char utn_getChar(char mensaje[])
 {
     char auxiliar;
 
@@ -56,15 +56,15 @@ char getChar(char mensaje[])
 }
 
 /**
- * \brief Genera un nÃºmero aleatorio
- * \param desde NÃºmero aleatorio mÃ­nimo
- * \param hasta NÃºmero aleatorio mÃ¡ximo
- * \param iniciar Indica si se trata del primer nÃºmero solicitado 1 indica que si
- * \return retorna el nÃºmero aleatorio generado
+ * \brief Genera un número aleatorio
+ * \param desde Número aleatorio mínimo
+ * \param hasta Número aleatorio máximo
+ * \param iniciar Indica si se trata del primer número solicitado 1 indica que si
+ * \return retorna el número aleatorio generado
  *
  */
 
-char getNumeroAleatorio(int desde , int hasta, int iniciar)
+char utn_getNumeroAleatorio(int desde , int hasta, int iniciar)
 {
     if(iniciar)
         srand (time(NULL));
