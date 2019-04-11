@@ -16,12 +16,17 @@ int esNumerico(char str[]) /** FALTA VALIDAR QUE TOME NEGATIVOS **/
 {
    int i=0;
 
-   while(str[i] != '\0')
+   if(str[i] == '-')
+   {
+        i++;
+   }
+
+   for(;str[i]!='\0';i++)
    {
        if(str[i] < '0' || str[i] > '9')
        {
             return 0;
-            i++;
+            break;
        }
    }
 
