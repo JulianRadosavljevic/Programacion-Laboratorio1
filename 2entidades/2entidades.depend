@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1558030666 source:c:\utn\2entidades\autor.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"autor.h"
+
+1558025080 c:\utn\2entidades\funciones.h
+
+1558025597 c:\utn\2entidades\autor.h
+
+1558025044 source:c:\utn\2entidades\fantasma.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"fantasma.h"
+
+1558025001 c:\utn\2entidades\fantasma.h
+
+1558030276 source:c:\utn\2entidades\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
+1558028202 source:c:\utn\2entidades\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"autor.h"
+
+1558029072 source:c:\utn\2entidades\libro.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"libro.h"
+
+1558029792 c:\utn\2entidades\libro.h
+
