@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1558011107 source:c:\utn\fantasma2\fantastma.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"fantasma.h"
+
+1557926996 c:\utn\fantasma2\utn.h
+
+1557940829 c:\utn\fantasma2\fantasma.h
+
+1557936480 source:c:\utn\fantasma2\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"fantasma.h"
+
+1557927033 source:c:\utn\fantasma2\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1557936521 c:\utn\fantasma2\funciones.h
+
+1557940924 source:c:\utn\fantasma2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
